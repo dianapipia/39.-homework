@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+  }
+
+.portfolio-header {
+    background-color: transparent;
+    position: fixed;
+    z-index: 99;
+    left: 0;
+    right: 0;
+    
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99; */
+   }
+   .home.page {
+    background: #212121;
+   }
+
+.container {
+    max-width: 1200px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+.header-content {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 0px;
+}
+.header-menu {
+    display: flex;
+    gap: 33px;
+}
+
+.header-menu a {
+    color: #FFFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: left;
+}
+
+.main-navigation a:visited {    
+    color:white;
+}
+
+.header-menu a:hover{
+    color: white;
+
+}
+.main-navigation.portfolio-navigation {
+    width: auto;
+
+}
+
+.home-section-1 {
+    height: 100vh;
+    position: relative;
+    margin-bottom: 106px;
+}
+
+.home-section-1 > img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+.hero-title {
+    color: white;
+    font-family: Poppins;
+    font-size: 64px;
+    font-weight: 600;
+    text-align: left;
+    margin: 0;
+}
+.hero-text {
+    color: white;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: left;
+    margin:0;
+}
+.hero-socials {
+    display: flex;
+    gap: 24px;
+}
+
+/* home-sections-2 */
+
+.home-section-2 {
+    margin-bottom: 120px;
+}
+.about-me {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+}
+
+.about-me-img {
+    border-radius: 24px 0;
+    overflow: hidden;
+}
+
+.about-me-img img {
+    height: 100%;
+    object-fit: cover;
+
+}
+.subtitle {
+    color: #4C70EF;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    margin: 0 0 12px;
+}
+.secondary_title {
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    text-align: left;
+    margin: 0 0 32px;
+}
+
+.about-me-texts{
+    color: #B0ADAD;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+}
+.about-me-texts p{
+    margin: 0 0 16px;
+}
+.about-me-texts p:last-child{
+    margin: 0;
+}
+.about-me-content {
+    padding: 21px 0 24px;
+    
+}
